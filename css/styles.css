@@ -53,6 +53,7 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: auto;
   }
 }
 
@@ -90,6 +91,14 @@ p {
   width: 150%;
   -webkit-transform: translate3d(-170px, 0, 0);
           transform: translate3d(-170px, 0, 0);
+}
+
+@media screen and (max-width: 960px) {
+  .spiderman {
+    width: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
 }
 
 .btn {
