@@ -8,6 +8,7 @@
     padding: 36px 16px;
   
     height: 85vh;
+    overflow: hidden;
   
     display: flex;
     flex-direction: row;
@@ -16,6 +17,7 @@
     @include responsive(){
         flex-direction: column;
         height: auto;
+        overflow: none;
        
     }
   
