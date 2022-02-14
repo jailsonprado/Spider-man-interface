@@ -359,6 +359,10 @@ header {
           transform: translate3d(0, -3px, 0);
 }
 
+.item-red {
+  color: #B31317;
+}
+
 .hamburguer-label {
   display: none;
 }
