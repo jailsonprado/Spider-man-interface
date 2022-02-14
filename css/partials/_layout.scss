@@ -17,7 +17,7 @@
     @include responsive(){
         flex-direction: column;
         height: auto;
-        overflow: hidden;
+        overflow-x: hidden;
        
     }
   

@@ -55,7 +55,7 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     height: auto;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
 
